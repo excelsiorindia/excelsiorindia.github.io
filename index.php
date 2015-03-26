@@ -36,7 +36,7 @@ $msg="Thank you for enquiry we will revert back soon.....";
   <head>
     <meta charset="utf-8">
     <!-- PAGE TITLE -->
-    <title>Excelsior India</title>
+    <title>Excelsior INDIA</title>
     <!-- MAKE IT RESPONSIVE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- BOOTSTRAP -->
@@ -71,7 +71,7 @@ $msg="Thank you for enquiry we will revert back soon.....";
                                 <li><a href="#awards">Awards</a></li>
 								<li><a href="#team">Team</a></li>
 								<li><a href="#collaborations">Collaborations</a></li>
-								<li><a href="#">Blog</a></li>
+						
 								<li><a href="#contact">Contact Us</a></li>
                                 <li><a href="#donation">Donate</a></li>
 								<!--<li><a href="#donation" class="btn btn-success">Donation</a></li>-->
@@ -498,7 +498,7 @@ I love reading and spend as much time as I can, reading and surfing for new book
                                         <div id="08" class="hide_text">
                                             <div style="background-image:url('images/team/Ritesh_Kumar_Verma.jpg');background-position:50% 0%;" class="pic-icon"></div>
                                             <h2>Ritesh Kumar Verma</h2>
-                                            <p> "Excelsior INDIA helped us saw the infinity. Now we have to discard the limits and turn into a rocket ship." </p>									 <div class="social">
+                                            <p> "Excelsior INDIA helped us see the infinity. Now we have to discard the limits and turn into a rocket ship." </p>									 <div class="social">
                                              <a href="https://in.linkedin.com/pub/ritesh-kumar-verma/a4/4/394" target="_blank"><span class="icon icon-linkedin"></span></a></div>
 
                                             <div style="clear:both"></div>
@@ -520,7 +520,7 @@ I love reading and spend as much time as I can, reading and surfing for new book
                                         <div id="09" class="hide_text">
                                             <div style="background-image:url('images/team/Varun-Doval.jpg');background-position:50% 0%;" class="pic-icon"></div>
                                             <h2>Varun Doval</h2>
-                                            <p>Currently pursuing management (firat year) from Indian Institute of Management Indore. He has completed his schooling from Delhi Public School R.K. Puram. Varun has worked at Teach India in the pilot stage, and helped design the initial course material. He was an intern to former president Dr. A.P.J Abdul Kalam at Kalam Foundation, and worked on the Jaipur Metro Kids School project for the foundation. Varun has also worked with CII Foundation, and designed the overall strategy for the foundation.<br><br> He has closely analyzed the CSR mandate under the new Company Act, and had been part of the CII National Committee on CSR Activity and CII National Civil Society dialogue. Varun was the head IIM Indore Media & PR committee, and also founded the industry interaction unit under the committee. He is currently the co-coordinator for IRIS – IIM Indore’s flagship business & cultural event</p>
+                                            <p>Currently pursuing management (first year) from Indian Institute of Management Indore. He has completed his schooling from Delhi Public School R.K. Puram. Varun has worked at Teach India in the pilot stage, and helped design the initial course material. He was an intern to former president Dr. A.P.J Abdul Kalam at Kalam Foundation, and worked on the Jaipur Metro Kids School project for the foundation. Varun has also worked with CII Foundation, and designed the overall strategy for the foundation.<br><br> He has closely analyzed the CSR mandate under the new Company Act, and had been part of the CII National Committee on CSR Activity and CII National Civil Society dialogue. Varun was the head IIM Indore Media & PR committee, and also founded the industry interaction unit under the committee. He is currently the co-coordinator for IRIS – IIM Indore’s flagship business & cultural event</p>
                                              <div class="social">
                                              <a href="https://www.facebook.com/varundoval" target="_blank"><span class="icon icon-facebook"></span></a>
                                             <a href="https://in.linkedin.com/in/varundoval" target="_blank"><span class="icon icon-linkedin"></span></a></div>
@@ -561,100 +561,7 @@ I have a keen interest in physics , philosophy and current affairs and I love de
 
 		                    </li>
                              
-		                    <!--<li>
-		                    	<div class="gallery-item">
-						    		<a id="various1" href="#07">
-						    			<div class="info">
-                                            <p>Nihal</p>
-                                            <p class="desg">Mentor</p>
-                                            <p class="coll">IIT Delhi</p>
-                                        </div>
-							    		<img src="images/team/Nihal.jpg" width="300" height="200" alt="Image gallery">
-						    		</a>
-                                    <div style=" display:none;">
-                                        <div id="07" class="hide_text">
-                                            <div style="background-image:url('images/team/Nihal.jpg');background-position:50% 0%;" class="pic-icon"></div>
-                                            <h2>Nihal</h2>
-                                            <p> Undergraduate at BITS Pilani Goa campus. Writing soothes me and Programming fascinates me, Computer vision being my centralized area of interest. </p>
-                                            <p class="aboutnn">
-                                                A very thoughtful initiative. Not everyone can dare to initiate a change. This team has the capapbility and the vision to do so.
-                                            </p>
-                                            <div style="clear:both"></div>
-                                        </div>
-                                    </div>
-					    		</div>
-                             </li>
-
-		                    <li>
-		                    	<div class="gallery-item">
-						    		<a id="various1" href="#09">
-						    			<div class="info">
-                                            <p>Rishabh Sethi</p>
-                                            <p class="desg">Mentor</p>
-                                            <p class="coll">IIT Delhi</p>
-                                        </div>
-							    		<img src="images/team/Rishabh_Sethi.jpg" width="300" height="200" alt="Image gallery">
-						    		</a>
-                                    <div style=" display:none;">
-                                        <div id="09" class="hide_text">
-                                            <div style="background-image:url('images/team/Rishabh_Sethi.jpg');background-position:50% 0%;" class="pic-icon"></div>
-                                            <h2>Rishabh Sethi</h2>
-                                            <p> Undergraduate at BITS Pilani Goa campus. Writing soothes me and Programming fascinates me, Computer vision being my centralized area of interest. </p>
-                                            <p class="aboutnn">
-                                                A very thoughtful initiative. Not everyone can dare to initiate a change. This team has the capapbility and the vision to do so.
-                                            </p>
-                                            <div style="clear:both"></div>
-                                        </div>
-                                    </div>
-					    		</div>
-                             </li>
-
-		                    <li>
-		                    	<div class="gallery-item">
-						    		<a id="various1" href="#11">
-						    			<div class="info">
-                                            <p>Shiva Dhawan</p>
-                                            <p class="desg">Mentor</p>
-                                            <p class="coll">IIT Delhi</p>
-                                        </div>
-							    		<img src="images/team/Shiva_Dhawan.jpg" width="300" height="200" alt="Image gallery">
-						    		</a>
-                                    <div style=" display:none;">
-                                        <div id="11" class="hide_text">
-                                            <div style="background-image:url('images/team/Shiva_Dhawan.jpg');background-position:50% 0%;" class="pic-icon"></div>
-                                            <h2>Shiva Dhawan</h2>
-                                            <p> Undergraduate at BITS Pilani Goa campus. Writing soothes me and Programming fascinates me, Computer vision being my centralized area of interest. </p>
-                                            <p class="aboutnn">
-                                                A very thoughtful initiative. Not everyone can dare to initiate a change. This team has the capapbility and the vision to do so.
-                                            </p>
-                                            <div style="clear:both"></div>
-                                        </div>
-                                    </div>
-					    		</div>
-                            </li>
-                             <li>
-		                    	<div class="gallery-item">
-						    		<a id="various1" href="#12">
-						    			<div class="info">
-                                            <p>Shubham Yadav</p>
-                                            <p class="desg">Mentor</p>
-                                            <p class="coll">IIT Delhi</p>
-                                        </div>
-							    		<img src="images/team/Shubham_Yadav.jpg" width="300" height="200" alt="Image gallery">
-						    		</a>
-                                    <div style=" display:none;">
-                                        <div id="12" class="hide_text">
-                                            <div style="background-image:url('images/team/Shubham_Yadav.jpg');background-position:50% 0%;" class="pic-icon"></div>
-                                            <h2>Shubham Yadav</h2>
-                                            <p> Undergraduate at BITS Pilani Goa campus. Writing soothes me and Programming fascinates me, Computer vision being my centralized area of interest. </p>
-                                            <p class="aboutnn">
-                                                A very thoughtful initiative. Not everyone can dare to initiate a change. This team has the capapbility and the vision to do so.
-                                            </p>
-                                            <div style="clear:both"></div>
-                                        </div>
-                                    </div>
-					    		</div>
-		                    </li>-->
+		                   
 
 		                </ul>
 					</div>
@@ -743,14 +650,11 @@ I have a keen interest in physics , philosophy and current affairs and I love de
 
 				  		<h5 class="show-more-text" style="display: block; background:#fff">Donors</h5>
 				  		<div class="show-more-buton" style="display: block;">+</div>
-				  		<h5 class="no-display show-less-text" style="display: none;">Less Donors</h5>
+				  		<h5 class="no-display show-less-text" style="display: none;">Donors</h5>
 				  		<div class="show-less-buton no-display" style="display: none;">-</div>
 
 			  	<div class="top-grids" style="display: none;">
 			  			<h3>Coming Soon</h3>
-				  		<div class="about-text">
-bjhbnjkn
-				  		</div>
 			  	</div>
                 <hr class="fade" id="contenthr" >
 
