@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- PAGE TITLE -->
+    <title>Excelsior India | Recycled Notebooks</title>
+    <!-- MAKE IT RESPONSIVE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- MAIN STYLE -->
+    <link href="css/customize.css" rel="stylesheet" media="screen">
+    <link href="style.css" rel="stylesheet" media="screen">
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <!-- START BODY -->
+  <body>
+	<div id="page">
+		<!-- START MAIN CONTAINER -->
+		<div id="main-container">
+		
+			<!-- START NAVIGATION -->
+			<div class="sticky-wrapper">
+				<nav id="navigation1">
+					<div class="container">
+						<!-- LOGO GOES HERE -->
+						<a href="index.html" id="logo"><img src="images/logo.png" alt="Logo Image"></a>
+						<!-- MENU -->
+						<nav>
+							<ul id="menu">
+								<li><a href="index.html#products">Products</a></li>
+                                 <li><a href="index.html#awards">Awards</a></li>
+								<li><a href="index.html#team">Team</a></li>
+								<li><a href="index.html#collaborations">Collaborations</a></li>
+								<li><a href="index.html#">Blog</a></li>
+								<li><a href="index.html#contact">Contact Us</a></li>
+                                <li><a href="index.html#donation">Donate</a></li>
+								<!--<li><a href="#donation" class="btn btn-success">Donation</a></li>-->
+							</ul>
+						</nav>
+					</div>
+				</nav>
+			</div>
+			<!-- END NAVIGATION -->
+		
+			<!-- START PAGE SECTION -->
+			<section id="single-page" class="section with-arrow">
+				<!-- SECTION TITLE -->
+				<div class="section-header">
+					<div class="container">
+						<h1>Recycled Notebooks</h1>
+					</div>
+				</div>
+				<!-- SECTION CONTENT -->
+				<div class="section-content">
+					<div class="container">
+						<div class="row">
+							<!-- event CONTENT -->
+							<div class="col-md-9">
+								<div class="event-featured">
+								    <img src="images/event/reclycle-notbook.jpg" alt="Featured Image"></a>
+							    </div>
+							    <div class="event-date">
+							    </div>
+							    <div class="event-content">
+                                <h3>Our Vision</h3>
+                                
+								    <p>For 25 million children in India education is still a distant dream. 47 out of 100 children in class 1 reach class 8th, rest drop out majority of them being girls. The principal reason behind this calamitous situation is Poverty. Books, notebooks, stationary, is a luxury which a large section of our society cannot afford.</p><p>
+Excelsior INDIA has taken the initiative to make a positive impact in the lives of these children. We, being privileged enough to get good education, understand our responsibility to give back to the country by helping its future realize its full potential.
+</p>
+						<h3>What We Do?</h3>
+                        <ul class="tree">
+                        	<li class="arrow_box">We collect waste paper from the schools, residential societies, institutes and offices which donate us waste paper.</li>
+                            <li class="arrow_box">The collected waste paper which is recycled and processed into high quality notebooks.</li>
+                            <li class="arrow_box last">We distribute these notebooks in the rural areas at nominal prices.</li>
+                        </ul>
+                        <p>
+                        Recycled notebooks are of high quality paper (70 GSM) which are sold at one fifth of its market price.</p>
+<p>Besides this noble cause, our project is motivating people to make the society greener. 
+500 pages are made out of one fully mature tree. Hence with every 7 notebooks we make, we save a fully mature tree.</p>
+<p>Team Excelsior INDIA believes in ‘We are One’ and will continue to broaden the scope of its activities for making a difference by improving the living standard of school children and people in general.
+
+                        </p>
+                        
+                        
+							    </div>
+							    
+							    
+							</div>
+							<!-- SIDEBAR CONTENT -->
+							<!-- END .WIDGET -->
+					            
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- END TEAM SECTION -->
+			
+			<!-- START FOOTER SECTION -->
+			<section id="footer" class="section section-full-colored">
+				<div class="section-content center">
+					<p>Copyright ©2015 Excelsior INDIA - Developed by <a href="http://www.abacusdesk.com" target="_blank">Abacus Desk</a></p>
+				</div>
+			</section>
+			<!-- END FOOTER SECTION -->
+		
+		</div>
+		<!-- END MAIN CONTAINER -->
+		
+		<!-- PAGE LOADING-->
+		<div id="loader"></div>
+  	</div>
+    <!-- SCRIPTS -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- ONLY FOR THE MAP START-->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <!-- ONLY FOR THE MAP END-->
+    <script>
+		function initialize() {
+		  var myLatlng = new google.maps.LatLng(48.858229,2.294388); //YOUR LOCATION -> http://itouchmap.com/latlong.html
+		  var mapOptions = {
+		    zoom: 6,
+		    center: myLatlng
+		  }
+		  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+		
+		  var marker = new google.maps.Marker({
+		      position: myLatlng,
+		      map: map,
+		      title: 'Hello World! Your Location'
+		  });
+		}
+		
+		google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+	<script src="js/jquery.sequence-min.js"></script>
+	<script src="js/alert.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.smoothscroll.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+  <!-- END BODY -->
+</html>

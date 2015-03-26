@@ -1,3 +1,36 @@
+<?php
+error_reporting(0);
+if(isset($_POST['submit'])){
+if($_POST['name']!='' && $_POST['email']!='' && $_POST['phone']!='' && $_POST['message']!=''){
+$yourname=$_POST['name'];
+$youremail=$_POST['email'];
+$yourphone=$_POST['phone'];
+$message=$_POST['message'];
+
+
+ $to='contactexcelsiorindia@gmail.com';
+      
+   $From ="$yourname<$youremail>";
+        $headers = "MIME-Version: 1.0\r\n";
+        $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+        $headers .= 'To: '.$yourname . "\r\n";
+        $headers .= 'From: '.$youremail. "\r\n";
+  $contents = '<table width="100%" border="0">';   
+  $contents.= '<tr><td width="29%"><p>&nbsp;</p></td><td width="71%">&nbsp;</td></tr>';  
+  $contents.= '<tr><td><strong>Name : </strong></td><td>'.$yourname.'</td></tr>';  
+  $contents.= '<tr><td><strong>Email :</strong></td><td>'.$youremail.'</td></tr>';  
+  $contents.= '<tr><td><strong>Phone Number :</strong></td><td>'.$yourphone.'</td></tr>'; 
+  $contents.= '<tr><td><strong>Message:</strong></td><td>'.$message.'</td></tr>';
+  $contents.='</table>';
+
+$subject1='Excel India';
+mail($to,$subject1,$contents,$headers);
+$msg="Thank you for enquiry we will revert back soon.....";
+}
+}
+?>
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -30,7 +63,7 @@
 				<nav id="navigation1">
 					<div class="container">
 						<!-- LOGO GOES HERE -->
-						<a href="index.html" id="logo"><img src="images/logo.png" alt="Logo Image"></a>
+						<a href="javascript:void(0)" id="logo"><img src="images/logo.png" alt="Logo Image"></a>
 						<!-- MENU -->
 						<nav>
 							<ul id="menu">
@@ -38,7 +71,7 @@
                                 <li><a href="#awards">Awards</a></li>
 								<li><a href="#team">Team</a></li>
 								<li><a href="#collaborations">Collaborations</a></li>
-								<li><a href="https://excelsiorindia.wordpress.com/" target="_blank">Blog</a></li>
+								<li><a href="#">Blog</a></li>
 								<li><a href="#contact">Contact Us</a></li>
                                 <li><a href="#donation">Donate</a></li>
 								<!--<li><a href="#donation" class="btn btn-success">Donation</a></li>-->
@@ -465,7 +498,7 @@ I love reading and spend as much time as I can, reading and surfing for new book
                                         <div id="08" class="hide_text">
                                             <div style="background-image:url('images/team/Ritesh_Kumar_Verma.jpg');background-position:50% 0%;" class="pic-icon"></div>
                                             <h2>Ritesh Kumar Verma</h2>
-                                            <p> "Excelsior INDIA helped us saw* the infinity. Now we have to discard the limits and turn into a rocket ship." </p>									 <div class="social">
+                                            <p> "Excelsior INDIA helped us saw the infinity. Now we have to discard the limits and turn into a rocket ship." </p>									 <div class="social">
                                              <a href="https://in.linkedin.com/pub/ritesh-kumar-verma/a4/4/394" target="_blank"><span class="icon icon-linkedin"></span></a></div>
 
                                             <div style="clear:both"></div>
@@ -487,7 +520,7 @@ I love reading and spend as much time as I can, reading and surfing for new book
                                         <div id="09" class="hide_text">
                                             <div style="background-image:url('images/team/Varun-Doval.jpg');background-position:50% 0%;" class="pic-icon"></div>
                                             <h2>Varun Doval</h2>
-                                            <p>Currently pursuing management (first year) from Indian Institute of Management Indore. He has completed his schooling from Delhi Public School R.K. Puram. Varun has worked at Teach India in the pilot stage, and helped design the initial course material. He was an intern to former president Dr. A.P.J Abdul Kalam at Kalam Foundation, and worked on the Jaipur Metro Kids School project for the foundation. Varun has also worked with CII Foundation, and designed the overall strategy for the foundation.<br><br> He has closely analyzed the CSR mandate under the new Company Act, and had been part of the CII National Committee on CSR Activity and CII National Civil Society dialogue. Varun was the head IIM Indore Media & PR committee, and also founded the industry interaction unit under the committee. He is currently the co-coordinator for IRIS – IIM Indore’s flagship business & cultural event</p>
+                                            <p>Currently pursuing management (firat year) from Indian Institute of Management Indore. He has completed his schooling from Delhi Public School R.K. Puram. Varun has worked at Teach India in the pilot stage, and helped design the initial course material. He was an intern to former president Dr. A.P.J Abdul Kalam at Kalam Foundation, and worked on the Jaipur Metro Kids School project for the foundation. Varun has also worked with CII Foundation, and designed the overall strategy for the foundation.<br><br> He has closely analyzed the CSR mandate under the new Company Act, and had been part of the CII National Committee on CSR Activity and CII National Civil Society dialogue. Varun was the head IIM Indore Media & PR committee, and also founded the industry interaction unit under the committee. He is currently the co-coordinator for IRIS – IIM Indore’s flagship business & cultural event</p>
                                              <div class="social">
                                              <a href="https://www.facebook.com/varundoval" target="_blank"><span class="icon icon-facebook"></span></a>
                                             <a href="https://in.linkedin.com/in/varundoval" target="_blank"><span class="icon icon-linkedin"></span></a></div>
@@ -698,15 +731,12 @@ I have a keen interest in physics , philosophy and current affairs and I love de
 					</div>
                    <div class="dwnarro"><img src="images/dwnarro.png" alt=""></div>
 				</div>
-               
-                
-                
 			</section>
 			<!-- END SERVICES SECTION -->
 
 
             <!-- START SERVICES SECTION -->
-			<section class="section" >
+			<section class="section" style="z-index:99999999" >
 				<!-- SECTION TITLE -->
 				<div class="section-header" style="padding-bottom:0px; background:#fff">
 
@@ -759,12 +789,8 @@ bjhbnjkn
 						<div class="row">
 							<!-- CONTACT TEXT -->
 							<div class="col-md-6">
-								<p><b>Sales Enquiry</b>- Kushagra Srivastava: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                +918826531013<br/>
-                                
-            <b>For Investors & Business Partnerships</b>- Varun Doval:&nbsp;&nbsp; +918878372666<br> <b>Media Partnerships</b>- Ritesh Kumar Verma: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+919818749480<br>
+								<p><b>Sales Enquiry</b>- Kushagra Srivastava: +918826531013<br>
+            <b>For Investors & Business Partnerships</b>- Varun Doval: +918878372666<br> <b>Media Partnerships</b>- Ritesh Kumar Verma: +919818749480<br>
 Email:<a href="mailto:contactexcelsiorindia@gmail.com"> contactexcelsiorindia@gmail.com</p>
 								<!-- SOCIAL BUTTTONS -->
 								<ul class="social-list">
@@ -774,29 +800,29 @@ Email:<a href="mailto:contactexcelsiorindia@gmail.com"> contactexcelsiorindia@gm
 							</div>
 							<div class="col-md-6">
 								<!-- CONTACT FORM -->
-				                <form class="form-horizontal" method="post" action="" id="form">
+				                <form class="form-horizontal" method="post" action="index.php" id="form">
 				                  <div class="form-group">
 				                    <label for="contact_name" class="col-lg-2 control-label">Name</label>
 				                    <div class="col-lg-10">
-				                      <input type="text" class="form-control" name="name1" id="name1" required>
+				                      <input type="text" class="form-control" name="contact_name" required>
 				                    </div>
 				                  </div>
 				                  <div class="form-group">
 				                    <label for="contact_email" class="col-lg-2 control-label">Email</label>
 				                    <div class="col-lg-10">
-				                      <input type="email" class="form-control" name="email1" id="email1" required>
+				                      <input type="email" class="form-control" name="contact_email" required>
 				                    </div>
 				                  </div>
                                    <div class="form-group">
 				                    <label for="contact_name" class="col-lg-2 control-label">Phone</label>
 				                    <div class="col-lg-10">
-				                      <input type="text" class="form-control" name="phone1" id="phone1" required>
+				                      <input type="text" class="form-control" name="contact_num" required>
 				                    </div>
 				                  </div>
 				                  <div class="form-group">
 				                    <label for="contact_textarea" class="col-lg-2 control-label">Message</label>
 				                    <div class="col-lg-10">
-				                      <textarea class="form-control" rows="3" name="query1" id="query1" required></textarea>
+				                      <textarea class="form-control" rows="3" name="contact_textarea" required></textarea>
 				                    </div>
 				                  </div>
 				                  <div class="form-group">
@@ -934,20 +960,18 @@ function lightbox_close(){
 <h2>Grant Your Waste Paper</h2><br>
 
 
-<form class="wpcf7-form" method="post" action="index.php" name="">
+<form class="wpcf7-form" method="" action="" name="">
 
 
-<p><span>
-<input type="text" placeholder="Name *" aria-invalid="false" aria-required="true" class="wpcf7-text" size="40" value="" name="name" id="name" ></span> </p>
+<p><span><input type="text" placeholder="Name *" aria-invalid="false" aria-required="true" class="wpcf7-text" size="40" value="" name="your-name"></span> </p>
 
-<p><span>
-<input type="email" placeholder="Email *" aria-invalid="false" aria-required="true" class="wpcf7-text wpcf7-email  wpcf7-validates-as-email" size="40" value="" name="email" id="email"></span> </p>
+<p><span><input type="email" placeholder="Email *" aria-invalid="false" aria-required="true" class="wpcf7-text wpcf7-email  wpcf7-validates-as-email" size="40" value="" name="email"></span> </p>
 
-<p><span><input type="tel" placeholder="Phone *" aria-invalid="false" aria-required="true" class="wpcf7-text wpcf7-tel  wpcf7-validates-as-tel" size="40" value="" name="phone" id="phone"></span> </p>
+<p><span><input type="tel" placeholder="Phone *" aria-invalid="false" aria-required="true" class="wpcf7-text wpcf7-tel  wpcf7-validates-as-tel" size="40" value="" name="phone"></span> </p>
 
-<p><span><textarea placeholder="Message *" aria-invalid="false" aria-required="true" class="wpcf7-textarea" rows="10" cols="40" name="message" id="message"></textarea></span> </p>
+<p><span><textarea placeholder="Message *" aria-invalid="false" aria-required="true" class="wpcf7-textarea" rows="10" cols="40" name="message"></textarea></span> </p>
 
-<p><span><input type="submit" class="wpcf7-submit" name="submit" id="submit" value="Grab it Now"></span></p>
+<p><span><input type="submit" class="wpcf7-submit" value="Grab it Now"></span></p>
 
 </form>
 </div><div id="fade" onClick="lightbox_close();"></div>
