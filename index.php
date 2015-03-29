@@ -87,19 +87,19 @@ $msg="Thank you for enquiry we will revert back soon.....";
 				<span class="sequence-prev" ></span>
 				<span class="sequence-next" ></span>
 	            <ul class="sequence-canvas">
-	            	<li class="animate-in  center" style="background-image: url('images/slider/1.jpg');">
+	            	<li class="animate-in  center" style="background-image: url('images/slider/slider1.png');">
 		            	<div class="slide-content">
 			            	<h1>Welcome !</h1>
 			            	<h1>Excelsior INDIA</h1>
 		            	</div>
 	            	</li>
-	            	<li class="center" style="background-image: url('images/slider/2.jpg');">
+	            	<li class="center" style="background-image: url('images/slider/slider4.png');">
 		            	<div class="slide-content">
 			            	<h1>who are we</h1>
 			            	<h3>we are students from IIT and IIM who have come up together to give back to the society. </h3>
 		            	</div>
 	            	</li>
-	            	<li class="center" style="background-image: url('images/slider/3.jpg');">
+	            	<li class="center" style="background-image: url('images/slider/slider3.png');">
 		            	<div class="slide-content">
 			            	<h1>Our Vision</h1>
 			            	<div>
