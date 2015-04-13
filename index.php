@@ -39,6 +39,7 @@ $msg="Thank you for enquiry we will revert back soon.....";
     <title>Excelsior INDIA</title>
     <!-- MAKE IT RESPONSIVE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="shortcut icon" type="image/x-icon" href="images/favi.png"/> 
     <!-- BOOTSTRAP -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!-- MAIN STYLE -->
@@ -93,7 +94,7 @@ $msg="Thank you for enquiry we will revert back soon.....";
 			            	<h1>Excelsior INDIA</h1>
 		            	</div>
 	            	</li>
-	            	<li class="center" style="background-image: url('images/slider/slider4.png');">
+	            	<li class="center" style="background-image: url('images/slider/slider2.png');">
 		            	<div class="slide-content">
 			            	<h1>who are we</h1>
 			            	<h3>we are students from IIT and IIM who have come up together to give back to the society. </h3>
@@ -130,7 +131,7 @@ $msg="Thank you for enquiry we will revert back soon.....";
 											<!-- EVENT FEATURED IMAGE -->
 											<div class="initiative-header">
 												<a href="initiative-recycled-notebooks.html">
-													<img src="images/event/reclycle-notbook.jpg" alt="Event cover">
+													<img src="images/slider/2.png" alt="Event cover">
 												</a>
 											</div>
 											<!-- START CONTENT -->
@@ -312,7 +313,7 @@ $msg="Thank you for enquiry we will revert back soon.....";
                                         <div id="01" class="hide_text">
                                             <div style="background-image:url('images/team/Anurag-Gangwar.jpg');background-position:50% 0%;" class="pic-icon"></div>
                                             <h2>Anurag Gangwar</h2>
-                                            <p> Currently pursuing his B.Tech in engineering physics from IIT Delhi, he is an entrepreneurial enthusiast. He is self motivated to give back to the society and takes keen interests in social ventures too. Excelsior INDIA is just another chapter in his beautiful journey of life.  </p>
+                                            <p> Currently pursuing B.Tech in Engineering Physics from Indian Institute of Technology Delhi. Anurag completed his schooling from Suraj Bhan DAV Public School Vasant Vihar. He has helped in market research and analysis as project executive of Enactus IIT Delhi. His team of Enactus IIT Delhi received Mahindra Amazing Indian award and secured Second place in Enactus National Championship 2015. He has organized many collection drives in and around south delhi through NSS and Excelsior INDIA, and has a good understanding of the social sector. Excelsior INDIA is just another chapter in his beautiful journey of life.   </p>
                                             <div class="social">
                                             <a href="https://in.linkedin.com/pub/anurag-gangwar/87/b8a/186" target="_blank"><span class="icon icon-linkedin"></span></a></div>
                                            <!-- <p class="aboutnn">
@@ -339,7 +340,7 @@ $msg="Thank you for enquiry we will revert back soon.....";
                                         <div id="02" class="hide_text">
                                             <div style="background-image:url('images/team/Ashish_Pratap_Singh.jpg');background-position:50% 0%;" class="pic-icon"></div>
                                             <h2>Ashish Pratap Singh</h2>
-                                            <p>Driven by passion for his interests and motivated by the need of the society, this young lad works really hard to contribute to the upliftment of the society. Having said that; Lets get on to some work. </p>
+                                            <p>Driven by passion for his interests and motivated by the need of the society, this young lad works really hard to contribute to the upliftment of the society. Having said that, Lets get on to some work. </p>
                                             <div class="social">
                                              <a href="https://www.facebook.com/ashish.pratapsingh.7399" target="_blank"><span class="icon icon-facebook"></span></a>
                                             <a href="https://in.linkedin.com/pub/ashish-pratap-singh/88/76/97b" target="_blank"><span class="icon icon-linkedin"></span></a></div>
@@ -364,7 +365,7 @@ $msg="Thank you for enquiry we will revert back soon.....";
                                         <div id="03" class="hide_text">
                                             <div style="background-image:url('images/team/Harshit-Chauhan.jpg');background-position:50% 0%;" class="pic-icon"></div>
                                             <h2>Harshit Chauhan</h2>
-                                            <p> Pursuing mechanical engineering from IIT Delhi.<br><br>Has the capability to turns ideas into projects , and projects into serial success. Endeavours to deliver high quality work on time. Ardent follower of swami vivekanand’s principles. </p>
+                                            <p> Currently pursuing B.Tech in mechanical Engineering from Indian Institute of Technology Delhi. He has completed his schooling from Springfields College, Moradabad (UP). He interned in Delhi Drainage Master plan, IIT Delhi. He has worked in Avanti fellows as a mentor and also represented his hostel in Board for Student Welfare, IIT Delhi. Other than being a core member of Excelsior INDIA, he is presently volunteering for Enactus IIT Delhi and is also an active member of Robotics Club, IIT Delhi.<br><br>Has the capability to turns ideas into projects , and projects into serial success. Endeavours to deliver high quality work on time. Ardent follower of swami vivekanand’s principles. </p>
                                              <div class="social">
                                              <a href="https://www.facebook.com/harshit.chauhan.965" target="_blank"><span class="icon icon-facebook"></span></a>
                                             <a href="https://in.linkedin.com/pub/harshit-chauhan/a3/165/385" target="_blank"><span class="icon icon-linkedin"></span></a></div>
@@ -469,8 +470,7 @@ Being very patriotic, i am highly interested in Policy Making, Social Entreprene
                                         <div id="07" class="hide_text">
                                             <div style="background-image:url('images/team/Prateek-Sachan.jpg');background-position:50% 0%;" class="pic-icon"></div>
                                             <h2>Prateek Sachan</h2>
-                                             <p> I am an undergrad student pursuing my B.Tech in chemical engineering from IITD.
-I love reading and spend as much time as I can, reading and surfing for new books. </p>
+                                             <p> He completed schooling from Bethany Convent School, Naini Allahabad. Currently he is a student at Indian Institute of Technology, Delhi pursuing B.Tech in Chemical Engineering. He did an internship with Avanti fellows and was responsible for conducting their outreach programme. He visited around 75 Delhi State Government Schools under the program, and has valuable insights regarding the needs and requirements of students studying in government run schools. He is also a co-founder of an NGO, Nurturing Nation, which mentored students preparing for IIT-JEE examination. </p>
                                             <p class="aboutnn">
                                                 Excelsior INDIA is an opportunity for everyone working in it to create an impact that will have far reaching consequences
                                             </p>
@@ -498,7 +498,8 @@ I love reading and spend as much time as I can, reading and surfing for new book
                                         <div id="08" class="hide_text">
                                             <div style="background-image:url('images/team/Ritesh_Kumar_Verma.jpg');background-position:50% 0%;" class="pic-icon"></div>
                                             <h2>Ritesh Kumar Verma</h2>
-                                            <p> "Excelsior INDIA helped us see the infinity. Now we have to discard the limits and turn into a rocket ship." </p>									 <div class="social">
+											<p> Completed his schooling from G.M.I.S. Kanpur. He is currently pursuing B.Tech in chemical engineering from IIT Delhi. His experience includes internship in outreach and communications at Avanti organization. He is presently a project executive at Enactus IIT Delhi. He co-founded an NGO, Nurturing Nation which provides consulting to JEE aspirants. His writes as a passion, in literary forms such as poems and articles. </p>
+                                            <p class="aboutnn"> "Excelsior INDIA helped us see the infinity. Now we have to discard the limits and turn into a rocket ship." </p>									 <div class="social">
                                              <a href="https://in.linkedin.com/pub/ritesh-kumar-verma/a4/4/394" target="_blank"><span class="icon icon-linkedin"></span></a></div>
 
                                             <div style="clear:both"></div>
@@ -586,7 +587,7 @@ I have a keen interest in physics , philosophy and current affairs and I love de
       <img src="images/coll/times-foundation.jpg" />
       <img src="images/coll/iim-indor.jpg" />
       <img src="images/coll/bhartiya.jpg" />
-     <img src="images/coll/d-light.jpg" />
+  
      <img src="images/coll/gunj.jpg" />
       <img src="images/coll/safexpress.jpg" />
     </div>
@@ -642,38 +643,12 @@ I have a keen interest in physics , philosophy and current affairs and I love de
 			<!-- END SERVICES SECTION -->
 
 
-            <!-- START SERVICES SECTION -->
-			<section class="section" style="z-index:99999999" >
-				<!-- SECTION TITLE -->
-				<div class="section-header" style="padding-bottom:0px; background:#fff">
-
-
-				  		<h5 class="show-more-text" style="display: block; background:#fff">Donors</h5>
-				  		<div class="show-more-buton" style="display: block;">+</div>
-				  		<h5 class="no-display show-less-text" style="display: none;">Donors</h5>
-				  		<div class="show-less-buton no-display" style="display: none;">-</div>
-
-			  	<div class="top-grids" style="display: none;">
-			  			<h3>Coming Soon</h3>
-			  	</div>
-                <hr class="fade" id="contenthr" >
-
-                
-				</div>
-				<!-- SECTION CONTENT -->
-				<div class="section-content" style="padding:1px 0;">
-					<div class="container">
-
-
-					</div>
-				</div>
-			</section>
-			<!-- END SERVICES SECTION -->
+            
 
 			<!-- START DONATION SECTION -->
 			<section id="donation" class="section section-image" style="background-image: url('images/donation_cover.jpg');">
 				<div class="section-content center">
-					<h2>Come and make a few hearts smile ?</h2>
+					<h2>Come and make a few hearts smile</h2>
 					<!-- DONATION BUTTON -->
 					<a onclick="lightbox_open();" class="light-display btn btn-donation btn-success">Grant your Waste paper</a>
                     <a href="#" class="btn btn-donation btn-success">Make a Donation</a>
@@ -693,8 +668,12 @@ I have a keen interest in physics , philosophy and current affairs and I love de
 						<div class="row">
 							<!-- CONTACT TEXT -->
 							<div class="col-md-6">
-								<p><b>Sales Enquiry</b>- Kushagra Srivastava: +918826531013<br>
-            <b>For Investors & Business Partnerships</b>- Varun Doval: +918878372666<br> <b>Media Partnerships</b>- Ritesh Kumar Verma: +919818749480<br>
+							<p><b>Sales Enquiry</b>- Kushagra Srivastava: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                +918826531013<br/>
+                                
+            <b>For Investors & Business Partnerships</b>- Varun Doval:&nbsp;&nbsp; +918878372666<br> <b>Media Partnerships</b>- Ritesh Kumar Verma: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+919818749480<br>
 Email:<a href="mailto:contactexcelsiorindia@gmail.com"> contactexcelsiorindia@gmail.com</p>
 								<!-- SOCIAL BUTTTONS -->
 								<ul class="social-list">
