@@ -72,7 +72,7 @@
 	  });
 	});
 	//LINKS
-	$('#navigation1').smoothScroll(100);
+	$('#navigation1').smoothScroll(1000);
 	//SHARE BUTTON
 	$(".sharing").click(function(){
 		$(this).next(".hidden-buttons").fadeToggle();

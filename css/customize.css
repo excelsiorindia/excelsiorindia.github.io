@@ -329,7 +329,7 @@ height:190px;
 	font-size: 150%;
 	border-radius: 50%;
 	font-size: 1.5em;
-	background: #555;
+	background: #0DB4E9;
 	width:1.5em;
 	line-height:1.5em;
 	color: #e5e5e5;
@@ -349,7 +349,7 @@ height:190px;
 	font-size: 150%;
 	border-radius: 50%;
 	font-size: 1.5em;
-	background: #252525;
+	background: #0DB4E9;
 	width:1.5em;
 	line-height:1.5em;
 	color: #e5e5e5;
@@ -373,7 +373,7 @@ h5.show-more-text, h5.show-less-text {
     text-align: center;
 }
 .top-grids .about-text h4{ color:#fff;}
-.top-grids { text-align:center; background:#333; color:#fff;padding-bottom: 0.2em;}
+.top-grids { text-align:center; background:#0DB4E9; color:#fff;padding-bottom: 0.2em;}
 
 hr.fade {
   height: 2px;
